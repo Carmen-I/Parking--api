@@ -1,28 +1,35 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# Build results
+bin/
+obj/
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# Visual Studio
+.vs/
+*.user
+*.suo
 
-# Environment files
-/.env
+# Logs and temp files
+*.log
+*.tmp
+*.bak
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# User-specific settings
+*.userprefs
 
-# TypeScript cache
-*.tsbuildinfo
+# Environment / Configuration
+appsettings.Development.json
+appsettings.Local.json
+.env
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Docker (optional)
+docker-compose.override.yml
+.docker/
+
+# Database files
+*.mdf
+*.ldf
+*.bak
+*.sql
+
+# OS files
+.DS_Store
+Thumbs.db
