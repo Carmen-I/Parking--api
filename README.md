@@ -1,5 +1,19 @@
 # 🚗 Sensade Parking Management API
 
+** ⚠️ Notes & Future Improvements
+
+This project was built quickly for an assignment in one weekend, so a few things are still missing:
+
+Proper unit tests and integration tests
+
+More detailed error handling
+
+Input validation for some endpoints
+
+More consistent responses for failed requests
+
+---
+The core functionality works and has been manually tested through Swagger, but the project would benefit from adding automated tests and stronger validation in the future.
 This project is a **.NET 8 Web API** that manages parking areas and parking spaces.  
 It allows users to:
 - Create, read, update, and delete **parking areas**
@@ -148,7 +162,6 @@ docker compose up -d
 ```
 
 ---
-
 ## 👩‍💻 Author
 
 **Carmen [Bruger]**  
