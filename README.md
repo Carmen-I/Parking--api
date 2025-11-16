@@ -1,6 +1,6 @@
 # 🚗 Sensade Parking Management API
 
-** ⚠️ Notes & Future Improvements
+** ⚠️ Notes & Future Improvements **
 
 This project was built quickly for an assignment in one weekend, so a few things are still missing:
 
